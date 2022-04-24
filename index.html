@@ -1,0 +1,22 @@
+<!doctype html>
+<script src='./coi-serviceworker.min.js'></script>
+<script src='./bundle.js'></script>
+
+<textarea id='input' rows=10 cols=50>
+(declare-fun x () Int)
+(declare-fun y () Int)
+(declare-fun z () Int)
+(assert (>= (* 2 x) (+ y z)))
+(declare-fun f (Int) Int)
+(declare-fun g (Int Int) Int)
+(assert (< (f x) (g x x)))
+(assert (> (f y) (g x x)))
+(check-sat)
+(get-model)
+(exit)
+</textarea><br>
+<button onclick="run(input.value)">eval</button><br>
+<br>
+
+output:<br>
+<textarea id='output' rows=10 cols=50></textarea>
