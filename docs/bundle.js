@@ -5,9 +5,9 @@
     return mod2 || (0, cb[__getOwnPropNames(cb)[0]])((mod2 = { exports: {} }).exports, mod2), mod2.exports;
   };
 
-  // ../z3/src/api/js/build/wrapper.js
+  // node_modules/z3-solver/build/wrapper.js
   var require_wrapper = __commonJS({
-    "../z3/src/api/js/build/wrapper.js"(exports) {
+    "node_modules/z3-solver/build/wrapper.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.init = exports.Z3_goal_prec = exports.Z3_error_code = exports.Z3_ast_print_mode = exports.Z3_param_kind = exports.Z3_decl_kind = exports.Z3_ast_kind = exports.Z3_sort_kind = exports.Z3_parameter_kind = exports.Z3_symbol_kind = exports.Z3_lbool = void 0;

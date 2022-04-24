@@ -6,6 +6,6 @@
   "dependencies": {
     "esbuild": "^0.14.38",
     "http-server": "^14.1.0",
-    "z3-solver": "file:../z3/src/api/js"
+    "z3-solver": "^4.8.16"
   }
 }
