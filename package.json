@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "esbuild --bundle in.js --outfile=docs/bundle.js --external:fs --external:path --external:perf_hooks && cp node_modules/z3-solver/build/z3-built.wasm node_modules/z3-solver/build/z3-built.worker.js docs",
+    "build": "esbuild --bundle in.js --outfile=docs/bundle.js --external:fs --external:path --external:perf_hooks && cp node_modules/z3-solver/build/z3-built.wasm node_modules/z3-solver/build/z3-built.worker.js node_modules/z3-solver/build/z3-built.js docs",
     "serve": "http-server docs"
   },
   "dependencies": {
